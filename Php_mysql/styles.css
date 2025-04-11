@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;  /* Tengahkan horizontal */
+    align-items: center;  /* Tengahkan vertikal */
+    height: 100vh;  /* Tinggi layar penuh */
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Tengahkan teks di dalam kotak login */
+    
+}
+.input-box {
+    margin-bottom: 10px; /* Atur jarak antar input */
+}
+.input-field {
+    width: 100%;  /* Lebarkan kolom sesuai parent */
+    height: 40px; /* Tinggi kolom input */
+    font-size: 16px; /* Perbesar ukuran teks */
+    padding: 10px; /* Tambahkan ruang di dalam input */
+    border: 1px solid #ccc; /* Tambahkan border agar lebih rapi */
+    border-radius: 5px; /* Buat sudut sedikit melengkung */
+    box-sizing: border-box; /* Pastikan padding tidak menambah ukuran total */
+}
+
+
+.login-header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;  /* Atur ukuran logo */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; /* Tengahkan logo dan beri jarak ke teks */
+
+    
+}
+.forgot {
+    display: flex;
+    flex-direction: column; /* Susun elemen ke bawah */
+    align-items: center; /* Tengahkan horizontal */
+    gap: 10px; /* Jarak antara Remember me dan Forgot password */
+    margin-top: 10px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Jarak antara checkbox dan teks */
+}
+
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Warna biru */
+    color: white; /* Warna teks putih */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px; /* Jarak dari elemen di atasnya */
+    transition: background 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+}
